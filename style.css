@@ -1,0 +1,16 @@
+.nav_bar_lens{
+  width: 20px;
+  height: 20px;
+}
+img{
+  width: 100%;
+}
+.sony_logo{
+  width: 90px;
+}
+/* Button */
+.button_orange_red{
+  background-color: #CD3D0F; 
+  border: none;
+  padding: 5px 10px;
+}
