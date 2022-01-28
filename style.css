@@ -38,6 +38,9 @@ img {
   background-repeat: no-repeat;
   min-height: 650px;
 }
+.width_img{
+  max-width: 200px;
+}
 /* Border img rounded */
 .img_rounded{
   overflow: hidden;
@@ -51,6 +54,7 @@ img {
 .float-on-hover:hover {  
   transform: translateY(-20px);  
 }
+/* Opacity */
 .opacity{
   opacity: 0.7;
 }
@@ -59,6 +63,26 @@ img {
   transition-duration: 0.3s;     
   transition-timing-function: ease;  
 }
+/* Active */
 .active:active{
   border-bottom: 2px solid #0B5ED7;
+}
+/* Hover scale */
+.hover_scale:hover{
+  transform: scale(1.05);
+  transition-duration: 0.3s;     
+  transition-timing-function: ease;  
+}
+
+/* bg-section 7 */
+.bg-section7{
+  background-color: #C1BDBC;
+}
+/* bg-section9 */
+.bg-section9{
+  background-color: #0D1533;
+}
+/* Footer */
+.bg-footer{
+  background-color: #00439C;
 }
