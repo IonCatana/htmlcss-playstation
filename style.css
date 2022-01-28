@@ -1,16 +1,49 @@
-.nav_bar_lens{
+.nav_bar_lens {
   width: 20px;
   height: 20px;
 }
-img{
+.hover_style {
+}
+.hover_style:hover {
+  color: #0070d1 !important;
+}
+img {
   width: 100%;
 }
-.sony_logo{
+
+.sony_logo {
   width: 90px;
 }
+
 /* Button */
-.button_orange_red{
-  background-color: #CD3D0F; 
+.button_orange_red {
+  background-color: #cd3d0f;
   border: none;
   padding: 5px 10px;
+}
+
+/* Jumbo Img */
+.jumbo_bg-img {
+  background-image: url(img/jumbo-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 675px;
+}
+/* Border img rounded */
+.img_rounded{
+  overflow: hidden;
+  border-radius: 20px !important;
+}
+
+
+
+
+/* Float up */
+.float-on-hover {    
+  transition-duration: 0.4s;     
+  transition-timing-function: ease-out;  
+}
+.float-on-hover:hover {  
+  transform: translateY(-20px);
+  
 }
