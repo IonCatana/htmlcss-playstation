@@ -11,13 +11,11 @@ img {
   width: 100%;
 }
 
-.sony_logo {
-  width: 90px;
-}
-header{
+
+header {
   display: contents;
 }
-header .navbar{
+header .navbar {
   position: sticky;
   top: 0;
 }
@@ -38,58 +36,87 @@ header .navbar{
   min-height: 600px;
 }
 /* TakesTwo img */
-.takes_two_img{
+.takes_two_img {
   background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 650px;
 }
-.width_img{
+.width_img {
   max-width: 200px;
 }
 /* Border img rounded */
-.img_rounded{
+.img_rounded {
   overflow: hidden;
   border-radius: 20px !important;
 }
+
 /* Float up */
-.float-on-hover {    
-  transition-duration: 0.4s;     
-  transition-timing-function: ease-out;  
+.float-on-hover {
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
 }
-.float-on-hover:hover {  
-  transform: translateY(-20px);  
+.float-on-hover:hover {
+  transform: translateY(-20px);
 }
 /* Opacity */
-.opacity{
+.opacity {
   opacity: 0.7;
 }
-.opacity:hover{
+.opacity:hover {
   opacity: 1;
-  transition-duration: 0.3s;     
-  transition-timing-function: ease;  
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
 }
 /* Active */
-.active:active{
-  border-bottom: 2px solid #0B5ED7;
+.active:active {
+  border-bottom: 2px solid #0b5ed7;
 }
 /* Hover scale */
-.hover_scale:hover{
+.hover_scale:hover {
   transform: scale(1.05);
-  transition-duration: 0.3s;     
-  transition-timing-function: ease;  
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
 }
 
 /* bg-section 7 */
-.bg-section7{
-  background-color: #C1BDBC;
+.bg-section7 {
+  background-color: #c1bdbc;
 }
 /* bg-section9 */
-.bg-section9{
-  background-color: #0D1533;
+.bg-section9 {
+  background-color: #0d1533;
 }
 /* Footer */
-.bg-footer{
-  background-color: #00439C;
+.bg-footer {
+  background-color: #00439c;
+}
+
+/* h3 border bottom animatione */
+h3 {
+  text-transform: uppercase;
+}
+h3:after {
+  display: block;
+  content: '';
+  border-bottom: solid 3px #0b5ed7;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+h3:hover:after {
+  transform: scaleX(1);
+}
+h3.fromRight:after {
+  transform-origin: 100% 50%;
+}
+h3.fromLeft:after {
+  transform-origin: 0% 50%;
+}
+
+.button_border_ouline:hover{  
+  background: #cd3d0f;
+  border: 1px solid currentColor;
+  outline: 2px solid #cd3d0f;
+  outline-offset: 2px;
 }
