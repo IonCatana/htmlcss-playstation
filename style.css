@@ -14,6 +14,13 @@ img {
 .sony_logo {
   width: 90px;
 }
+header{
+  display: contents;
+}
+header .navbar{
+  position: sticky;
+  top: 0;
+}
 
 /* Button */
 .button_orange_red {
