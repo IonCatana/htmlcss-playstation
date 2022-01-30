@@ -11,7 +11,6 @@ img {
   width: 100%;
 }
 
-
 header {
   display: contents;
 }
@@ -107,6 +106,11 @@ h3:after {
 h3:hover:after {
   transform: scaleX(1);
 }
+h3:hover {
+  text-shadow: 2px 2px 5px grey;
+  border-radius: 10px;
+  transition: 300ms linear;
+}
 h3.fromRight:after {
   transform-origin: 100% 50%;
 }
@@ -114,9 +118,17 @@ h3.fromLeft:after {
   transform-origin: 0% 50%;
 }
 
-.button_border_ouline:hover{  
+.button_border_ouline:hover {
   background: #cd3d0f;
   border: 1px solid currentColor;
   outline: 2px solid #cd3d0f;
   outline-offset: 2px;
+}
+
+
+
+.social_media:hover {
+  text-shadow: 2px 2px 5px grey;
+  border-radius: 10px;
+  transition: 300ms linear;
 }
